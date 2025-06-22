@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portfolio",
+  "name": "Seu Nome - Desenvolvedor Front-end",
+  "description": "Portfolio profissional de desenvolvedor Front-end especializado em React e interfaces modernas",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +9,88 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "icon-192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "maskable any"
     },
     {
-      "src": "logo512.png",
+      "src": "icon-512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0ea5e9",
+  "background_color": "#fafafa",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": [
+    "business",
+    "productivity",
+    "developer"
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot-desktop.png",
+      "type": "image/png",
+      "sizes": "1280x720",
+      "form_factor": "wide",
+      "label": "Portfolio Desktop"
+    },
+    {
+      "src": "images/screenshot-mobile.png", 
+      "type": "image/png",
+      "sizes": "375x812",
+      "form_factor": "narrow",
+      "label": "Portfolio Mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contato",
+      "short_name": "Contato",
+      "description": "Entre em contato diretamente",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "icons/contact-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Sobre",
+      "short_name": "Sobre",
+      "description": "Conheça mais sobre mim",
+      "url": "/#about",
+      "icons": [
+        {
+          "src": "icons/about-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Serviços",
+      "short_name": "Serviços",
+      "description": "Veja meus serviços",
+      "url": "/#services",
+      "icons": [
+        {
+          "src": "icons/services-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
 }
